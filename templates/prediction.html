@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>House Price Prediction System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+<body class="bg-dark text-white">
+    <div class="position-absolute top-50 start-50 translate-middle text-center">
+        <h1 class="">Based on your information, your house could be worth:</h1>
+        <h2 class="bg-danger rounded"> ₹ {{ prediction * 5000 }} /-</h2>  <p>This is just an estimate, and real market values may vary.</p>
+        <!-- <button class="btn btn-primary"><a href="/"></a> Predict another house</button> -->
+        <form action="/">
+            <button type="submit" class="btn btn-primary text-bold">Predict another house</button>
+        </form>
+    </div>
+</body>
+</html>
